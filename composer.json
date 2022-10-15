@@ -1,0 +1,19 @@
+{
+    "name": "vendor/async_php",
+    "description": "try async process with php",
+    "license": "MTI",
+    "autoload": {
+        "psr-4": {
+            "AsyncPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antonio Gabriel",
+            "email": "antoniocamposgabriel@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
